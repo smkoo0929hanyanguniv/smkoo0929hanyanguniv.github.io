@@ -1,3 +1,46 @@
+---
 layout: post
-title: "Step 1"
-date: 2025-10-26
+title: "[Step 1]  AI Smart Trash Can Project Planning (Service Concept)"
+date: 2025-10-26  
+categories: [Weekly Log, Project Planning]
+tags: [AI, IoT, Raspberry Pi, Arduino, TensorFlow, Planning]
+---
+
+## 1. Value Proposition
+We propose an **AI-based smart trash can** to solve the hassle and confusion inherent in separating recyclables.
+
+* **Target Users:** Members of general households, schools, and small offices.
+* **Solution:**
+    * **AI Camera (Raspberry Pi):** Automatically recognizes and classifies recyclables (paper, plastic, glass, etc.).
+    * **Automatic Sorting System (Arduino + Servo Motor):** Physically sorts the waste into the correct compartment based on recognition results.
+    * **Expected Effect:** Significantly improves user convenience and recycling accuracy.
+
+<br>
+
+## 2. Persona
+> **"I wish there was a robot that handled this confusing recycling for me!"**
+
+**Mr. A**, an ordinary college student living alone, finds dealing with trash bothersome every time he orders delivery food. Sorting recyclables is confusing and annoying, but he cannot just throw them away randomly for fear of fines. He thinks, **"If only there were a smart robot that could automatically classify the trash and open the right bin just by showing it to it, all these worries would be solved."**
+
+<br>
+
+## 3. UX Flow Diagram
+The process of a user interacting with the device is as follows:
+
+1.  **Approach:** User holds an item and goes in front of the device.
+2.  **Detection & Instruction:** Ultrasonic sensors detect the presence and give instructions on where to place or show the item.
+3.  **Recognition & Analysis:** Once the item is placed, the **Raspberry Pi camera** captures the image and analyzes it.
+4.  **Operation:** Based on the analysis result, the **Raspberry Pi** sends a signal to turn on the corresponding LED or open the trash can lid.
+5.  **Feedback:** The system confirms or corrects the result, and logs the feedback data to improve future accuracy.
+
+<br>
+
+## 4. Key Performance Indicators (KPIs)
+Target metrics for successful project completion.
+* **Classification Accuracy:** At least **90%**.
+* **Processing Latency:** Should be within **1.5 seconds**.
+
+---
+
+## 🛠️ Development Plan v1
+* **AI Model Path:** We will use **TensorFlow Lite**. We plan to train a lightweight model using image data to interpret and classify recyclables, and then deploy it on the **Raspberry Pi**.
