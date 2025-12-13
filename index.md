@@ -4,12 +4,10 @@ permalink: /
 permalink_name: /home
 title: AI-BASED-SERVICE
 
+---
 <div style="background-color: #050505; padding: 30px; border-radius: 15px; text-align: center; margin-bottom: 30px; border: 1px solid #333;">
   <img src="/assets/images/group29_ascii.png" alt="Group 29" style="width: 100%; max-width: 600px; filter: invert(1) drop-shadow(0 0 5px #00ffcc);">
 </div>
-
----
-
 
 
 # ai-based-service
