@@ -2,14 +2,59 @@
 layout: home
 permalink: /
 permalink_name: /home
-title: jekyll-shell-theme
+title: AI-BASED-SERVICE
 
 detail_image: assets/theme_logo.svg
 
 ---
 
-# jekyll-shell-theme
+# ai-based-service
 
-**Jekyll Shell Theme** is an open source light-weight customizable jekyll theme for your site! You can use it to spice up your personal profiles, project pages or just about anything!
+## 🌟 Featured Projects
 
-No prior web-dev knowledge is required to use the theme to make a website, just follow the instructions in [/read-me](read-me) to set up your web page and start filling it with hackery content! You can see sone features of the theme in [/preview](preview).
+### 1. AI Head Breaker (Hands-Free Game)
+**"Gamified Rehabilitation & Barrier-Free Leisure"**
+A hands-free arcade game controlled entirely by head movements. Designed for users with upper limb disabilities and for preventing "Tech Neck" syndrome.
+
+* **Core Tech:** p5.js, Google MediaPipe (Face Mesh), HTML5/CSS3
+* **How it works:**
+    * **Head Tracking:** Moving the head left/right controls the paddle.
+    * **Mouth Trigger:** Opening the mouth starts/resumes the game.
+* **Key Value:** Contactless interface, web accessibility, and neck exercise.
+
+<br>
+
+### 2. AI Smart Trash Can
+**"Solving Recycling Confusion with Computer Vision"**
+An automated waste sorting bin that uses AI to recognize recyclables and physically sorts them into the correct compartments.
+
+* **Core Tech:** Raspberry Pi 4, Arduino Uno, TensorFlow Lite
+* **How it works:**
+    * **Recognition:** AI camera identifies the type of waste (plastic, can, etc.).
+    * **Sorting:** Servo motors automatically open the correct lid.
+* **Key Value:** Improving recycling accuracy and user convenience.
+
+<br>
+
+---
+
+## 🛠️ Technical Skills
+* **AI/ML:** TensorFlow Lite, Google MediaPipe
+* **Hardware:** Raspberry Pi, Arduino, Sensors & Actuators
+* **Web/SW:** p5.js, Python, C++, HTML/CSS
+
+<br>
+
+## 📂 Weekly Activity Logs
+Here are the latest updates on our development process.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}"><b>{{ post.title }}</b></a>
+      <span style="font-size: 0.8em; color: #666;"> — {{ post.date | date: "%Y.%m.%d" }}</span>
+    </li>
+  {% endfor %}
+</ul>
+
+<br>
