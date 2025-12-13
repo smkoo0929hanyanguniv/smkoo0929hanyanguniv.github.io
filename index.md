@@ -15,6 +15,7 @@ title: AI-BASED-SERVICE
 ## 🌟 Featured Projects
 
 ### AI Head Breaker (Hands-Free Game)
+👉 **[View Project Details (자세히 보기)](/head-breaker/)**
 **"Gamified Rehabilitation & Barrier-Free Leisure"**
 A hands-free arcade game controlled entirely by head movements. Designed for users with upper limb disabilities and for preventing "Tech Neck" syndrome.
 
