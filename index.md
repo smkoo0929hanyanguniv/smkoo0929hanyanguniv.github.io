@@ -18,7 +18,8 @@ title: AI-BASED-SERVICE
 👉 **[Get To Know About AI Head Breaker (Hands-Free Game)](/head-breaker/)**
 <br>
 **"Gamified Rehabilitation & Barrier-Free Leisure"**
-A hands-free arcade game controlled entirely by head movements. Designed for users with upper limb disabilities and for preventing "Tech Neck" syndrome.
+A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
+Designed for users with <span style="color: #ff9900;">upper limb disabilities</span> and for preventing <span style="color: #ff00de; font-weight: bold;">"Tech Neck" syndrome</span>.
 
 * **Core Tech:** p5.js, Google MediaPipe (Face Mesh), HTML5/CSS3
 * **How it works:**
