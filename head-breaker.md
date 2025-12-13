@@ -14,7 +14,7 @@ permalink: /head-breaker/
 > **[👉 Play Game Now (Click Here)](https://YOUR_ID.github.io/GAME_URL)**
 > *(Replace this link with your actual game URL)*
 > 
-<img src="/assets/images/AI Head Breaker_Loading.jpg" width="100%">
+<img src="/assets/images/AI Head Breaker_Loading.png" width="100%">
 *This is the Loading Window*
 
 <br>
