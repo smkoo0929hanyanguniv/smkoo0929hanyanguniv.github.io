@@ -40,7 +40,7 @@ Designed for users with <span style="color: #ff9900;">upper limb disabilities</s
 Here are the latest updates on our development process.
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     <li>
       <a href="{{ post.url }}"><b>{{ post.title }}</b></a>
       <span style="font-size: 0.8em; color: #666;"> — {{ post.date | date: "%Y.%m.%d" }}</span>
