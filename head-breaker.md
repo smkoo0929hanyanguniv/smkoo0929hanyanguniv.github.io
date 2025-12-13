@@ -13,9 +13,9 @@ permalink: /head-breaker/
 ## 📺 Demo & Play
 > **[👉 Play Game Now (Click Here)](https://YOUR_ID.github.io/GAME_URL)**
 > *(Replace this link with your actual game URL)*
-
-![Game Play Screenshot](/assets/images/head-breaker-play.jpg)
-*(Please upload a screenshot of your game to the assets/images folder)*
+> 
+<img src="/assets/images/AI Head Breaker_Loading.jpg" width="100%">
+*This is the Loading Window*
 
 <br>
 
