@@ -11,8 +11,7 @@ permalink: /head-breaker/
 <br>
 
 ## 📺 Demo & Play
-> **[👉 Play Game Now (Click Here)](https://YOUR_ID.github.io/GAME_URL)**
-> *(Replace this link with your actual game URL)*
+> **[👉 Play Game Now (Click Here)](https://mellow-dragon-f0d9e2.netlify.app/))**
 > 
 <img src="/assets/images/AI Head Breaker_Ready.png" width="100%">
 *This is the Ready Window*
