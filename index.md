@@ -11,6 +11,7 @@ title: AI-BASED-SERVICE
 
 
 # ai-based-service
+<img src="/assets/images/Main Page of Game Website.png" width="100%">
 
 **[🎮 Start the game 🎮](https://mellow-dragon-f0d9e2.netlify.app/)**
 
