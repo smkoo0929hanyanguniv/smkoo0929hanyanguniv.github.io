@@ -16,8 +16,8 @@ title: AI-BASED-SERVICE
 
 ## 🌟 Featured Projects
 
-### AI Head Breaker (Hands-Free Game)
-👉 **[Get To Know About AI Head Breaker (Hands-Free Game)](/head-breaker/)**
+### Neon Breaker (Hands-Free Game)
+👉 **[Get To Know About Neon Breaker (Hands-Free Game)](/head-breaker/)**
 
 **"Gamified Rehabilitation & Barrier-Free Leisure"**
 A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
