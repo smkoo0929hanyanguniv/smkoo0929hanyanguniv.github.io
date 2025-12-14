@@ -1,3 +1,9 @@
+---
+layout: page
+title: AI Face Pong
+permalink: /face-pong/
+---
+
 Paddle follows head pitch (up/down).
 You can activate "Lock Mode" with mouth gestures(open).
 The goal is to hit the ball and survive.
