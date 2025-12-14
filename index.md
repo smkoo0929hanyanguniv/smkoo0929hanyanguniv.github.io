@@ -21,10 +21,14 @@ title: AI-BASED-SERVICE
 A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
 Designed for users with <span style="color: #ff9900;">upper limb disabilities</span> and for preventing <span style="color: #ff00de; font-weight: bold;">"Tech Neck" syndrome</span>.
 
-* **Core Tech:** p5.js, Google MediaPipe (Face Mesh), HTML5/CSS3
-* **How it works:**
-    * **Head Tracking:** Moving the head left/right or up/down controls the paddle.
-    * **Mouth Trigger:** Opening the mouth starts/resumes the game.
+* **Core Tech:**
+    * **AI Vision:** Google MediaPipe Face Mesh (High-precision landmark detection)
+    * **Game Engine:** p5.js (Physics & Rendering)
+    * **Web:** HTML5/CSS3 (Neon UI, SPA structure)
+* **How it works:** 
+    * **Head Tracking:** Extracts Landmark #1 (Nose Tip) coordiantes to map user's head rotation to the paddle's X-position.
+    * **Gesture Trigger:** Calculates the Euclidean distance between Landmark #13 (Upper Lip) and #14 (Lower Lip). If distance > threshold (0.03), game starts.
+    * **Logic:** Self-written algorithm ensures robust real-time tracking.
 * **Key Value:** Contactless interface, web accessibility, and neck exercise.
 
 ### Neon Breaker (Hands-Free Game)
