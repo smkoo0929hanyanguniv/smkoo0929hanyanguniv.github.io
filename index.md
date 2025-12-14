@@ -31,6 +31,20 @@ Designed for users with <span style="color: #ff9900;">upper limb disabilities</s
 * **Key Value:** Contactless interface, web accessibility, and neck exercise.
 
 <br>
+
+### Face Pong (Hands-Free Game)
+👉 **[Get To Know About Face Pong (Hands-Free Game)](/head-breaker/)**
+
+**"Gamified Rehabilitation & Barrier-Free Leisure"**
+A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
+Designed for users with <span style="color: #ff9900;">upper limb disabilities</span> and for preventing <span style="color: #ff00de; font-weight: bold;">"Tech Neck" syndrome</span>.
+
+* **Core Tech:** p5.js, Google MediaPipe (Face Mesh), HTML5/CSS3
+* **How it works:**
+    * **Head Tracking:** Moving the head up/down controls the paddle.
+    * **Mouth Trigger:** Opening the mouth starts/resumes the game.
+* **Key Value:** Contactless interface, web accessibility, and neck exercise.
+
 ---
 
 ## 🛠️ Technical Skills
