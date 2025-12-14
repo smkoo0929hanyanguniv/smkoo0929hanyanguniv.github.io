@@ -33,7 +33,7 @@ Designed for users with <span style="color: #ff9900;">upper limb disabilities</s
 <br>
 
 ### Face Pong (Hands-Free Game)
-👉 **[Get To Know About Face Pong (Hands-Free Game)](/head-breaker/)**
+👉 **[Get To Know About Face Pong (Hands-Free Game)](/face-pong/)**
 
 **"Gamified Rehabilitation & Barrier-Free Leisure"**
 A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
