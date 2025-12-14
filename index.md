@@ -12,6 +12,8 @@ title: AI-BASED-SERVICE
 
 # ai-based-service
 
+**[🎮 Start the game 🎮]([https://google.](https://mellow-dragon-f0d9e2.netlify.app/)**
+
 ## 🌟 Featured Projects
 
 ### AI Head Breaker (Hands-Free Game)
