@@ -25,7 +25,7 @@ permalink: /face-pong/
 <br>
 
 ## 💡 Project Overview
-**AI Face Pong** is a web-based "brick breaker" game that eliminates the need for a mouse or keyboard. By utilizing a standard webcam and AI vision technology, users can control the game entirely through facial movements.
+**AI Face Pong** is a web-based "ping pong" game that eliminates the need for a mouse or keyboard. By utilizing a standard webcam and AI vision technology, users can control the game entirely through facial movements.
 
 This project was developed with two main goals:
 1.  **Inclusive Leisure (Barrier-Free):** To provide a gaming experience for individuals with upper limb disabilities who cannot use standard controllers.
@@ -36,8 +36,8 @@ This project was developed with two main goals:
 ## 🕹️ How to Play (Hands-Free Interface)
 The game operates 100% contactless using **Face Landmark Detection**.
 
-* **Move Paddle:** Tilt or turn your head **Left/Right**.
-    * *Logic:* The system tracks the x-coordinate of your nose tip (Landmark #1).
+* **Move Paddle:** Tilt or turn your head **Up/Down**.
+    * *Logic:* The system tracks the y-coordinate of your nose tip (Landmark #1).
 * **Start / Resume:** **Open your mouth**.
     * *Logic:* The system calculates the vertical distance between your upper and lower lips. If it exceeds a specific threshold (0.05), it triggers a "Click" event.
 
