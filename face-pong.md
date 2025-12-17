@@ -16,9 +16,10 @@ permalink: /face-pong/
 <img src="/assets/images/Face Pong_Loading.png" width="100%">
 *This is the Ready Window*
 <br>
-
-
 <img src="/assets/images/Face Pong_Playing.png" width="100%">
+*This is the Playing Window*
+<br>
+<img src="/assets/images/Neon Breaker_Game Over.png" width="100%">
 *This is the Playing Window*
 
 <br>
