@@ -43,6 +43,42 @@ The game operates 100% contactless using **Face Landmark Detection**.
 
 <br>
 
+<br>
+
+## 🧠 Technical Deep Dive: Vertical Nodding Interface
+We developed a specialized algorithm for **"Face Pong: Survival Mode"**, where the player controls the paddle by nodding up and down.
+
+### 1. Game Mechanics
+* **Concept:** A survival reinterpretation of Pong. The user must block a ball falling from top to bottom.
+* **Controls (Hands-Free):**
+    * **Movement:** **Lifting head (Up)** moves the paddle up; **Bowing (Down)** moves it down.
+    * **Locking:** **Opening the mouth** locks the paddle in place. This allows users to rest in a comfortable posture while waiting for the ball.
+    * **Calibration:** Pressing `[Space]` sets the current head angle as 'Neutral', compensating for individual physical differences.
+
+### 2. Core Algorithms
+To ensure stability and smooth control, we applied two key mathematical logic:
+
+#### A. Ratio-Based Pitch Calculation (Depth Robustness)
+Using raw Y-coordinates causes errors when the user leans closer/further from the camera. We solved this using **facial structural proportions**.
+
+> **Formula:** `Pitch Ratio = (Nose.y - MidEye.y) / FaceHeight`
+
+* By dividing the distance between the *eyes and nose* by the *total face height*, we extract a normalized value that remains consistent regardless of the user's distance (Z-axis) from the camera.
+
+#### B. Velocity Control System
+Instead of 1:1 position mapping, we used **Velocity Control** for a smoother feel.
+
+> **Logic:** `PaddleSpeed = (CurrentPitch - NeutralPitch) * Sensitivity`
+
+* **Dynamic Speed:** Small head movements move the paddle slowly; large nods move it quickly.
+* **Deadzone:** A threshold (0.01) filters out minute tremors to prevent jitter.
+
+### 3. Dynamic Difficulty
+The game gets harder geometrically.
+* **Acceleration:** Every time the ball is returned, its velocity vector `(dx, dy)` is multiplied by **1.03**, gradually increasing the speed.
+
+<br>
+
 ## 🛠️ Tech Stack & Implementation
 * **Frontend:** HTML5, CSS3 (Neon Cyberpunk Aesthetic)
 * **Game Engine:** **p5.js** (Physics calculation, Rendering, Collision detection)
