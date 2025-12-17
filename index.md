@@ -20,6 +20,7 @@ title: AI-BASED-SERVICE
 **"Gamified Rehabilitation & Barrier-Free Leisure"**
 A hands-free arcade game controlled entirely by <span style="color: #00ffcc; font-weight: bold;">head movements</span>. 
 Designed for users with <span style="color: #ff9900;">upper limb disabilities</span> and for preventing <span style="color: #ff00de; font-weight: bold;">"Tech Neck" syndrome</span>.
+This platform consists of two independent game modes designed to <span style="color: #ffcc00; font-weight: bold;">maximize neck exercise effects</span> by inducing <span style="color: #00ffcc; font-weight: bold;">vertical movement (Extension/Flexion)</span> and <span style="color: #00ffcc; font-weight: bold;">horizontal rotational movement (Rotation)</span> of the cervical spine, respectively.
 
 * **Core Tech:**
     * **AI Vision:** Google MediaPipe Face Mesh (High-precision landmark detection)
