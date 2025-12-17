@@ -16,10 +16,11 @@ permalink: /head-breaker/
 <img src="/assets/images/Neon Breaker_Loading.png" width="100%">
 *This is the Ready Window*
 <br>
-
-
 <img src="/assets/images/Neon Breaker_Playing.png" width="100%">
 *This is the Playing Window*
+<br>
+<img src="/assets/images/Neon Breaker_Game Over.png" width="100%">
+*This is the Game Over Window*
 
 <br>
 
