@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AI Neon Breaker
+title: AI Neon Breaker
 permalink: /head-breaker/
 ---
 
