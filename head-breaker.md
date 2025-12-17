@@ -40,6 +40,45 @@ The game operates 100% contactless using **Face Landmark Detection**.
     * *Logic:* The system tracks the x-coordinate of your nose tip (Landmark #1).
 * **Start / Resume:** **Open your mouth**.
     * *Logic:* The system calculates the vertical distance between your upper and lower lips. If it exceeds a specific threshold (0.05), it triggers a "Click" event.
+ 
+<br>
+
+## 🧠 Technical Deep Dive: Horizontal Rotation (Neon Breaker)
+While "Face Pong" uses vertical nodding, **"Neon Breaker"** utilizes horizontal head rotation (yaw) to control a brick-breaking game.
+
+### 1. Game Mechanics
+* **Concept:** A classic brick-breaking arcade game. The goal is to destroy all procedural bricks generated at the top.
+* **Controls:**
+    * **Paddle:** Turning the head **Left/Right** moves the paddle in that direction.
+    * **Items:** Catching falling items triggers effects like 'Multi-ball' or 'Fireball' (penetration).
+* **Progression:** Levels are generated infinitely using procedural algorithms.
+
+### 2. Core Algorithms
+We implemented distinct logic to handle lateral movement and ball physics.
+
+#### A. Threshold-based State Machine
+Unlike the analog control of Face Pong, this mode requires clear directional states.
+
+> **Logic:** `If |Nose.x - 0.5| > Threshold (0.03) → Move State (LEFT or RIGHT)`
+
+* **Constant Speed:** The paddle moves at a fixed speed when the head is turned beyond the threshold.
+* **Fatigue Reduction:** Users only need to maintain a slight turn to move the paddle to the edge, minimizing neck strain compared to continuous turning.
+
+
+
+#### B. Vector-Based Reflection Calculation
+To add depth to the gameplay, we calculated the reflection angle based on the impact point.
+
+> **Formula:** `ReflectionAngle = HitPoint * MaxBounceAngle (75°)`
+
+* **Tactile Control:** The ball curves significantly when it hits the edges of the paddle, allowing users to "spin" or aim the ball precisely using only head movements.
+
+
+
+#### C. Procedural Level Generation
+New map patterns are created every round by iterating through a 2D array with random probability logic, ensuring infinite replay value without manual level design.
+
+<br>
 
 <br>
 
