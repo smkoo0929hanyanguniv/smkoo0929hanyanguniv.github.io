@@ -22,6 +22,12 @@ A hands-free arcade game controlled entirely by <span style="color: #00ffcc; fon
 Designed for users with <span style="color: #ff9900;">upper limb disabilities</span> and for preventing <span style="color: #ff00de; font-weight: bold;">"Tech Neck" syndrome</span>.
 This platform consists of two independent game modes designed to <span style="color: #ffcc00; font-weight: bold;">maximize neck exercise effects</span> by inducing <span style="color: #00ffcc; font-weight: bold;">vertical movement (Extension/Flexion)</span> and <span style="color: #00ffcc; font-weight: bold;">horizontal rotational movement (Rotation)</span> of the cervical spine, respectively.
 
+### Neon Breaker (Hands-Free Game)
+👉 **[Get To Know About Neon Breaker (Hands-Free Game)](/head-breaker/)**
+
+### Face Pong (Hands-Free Game)
+👉 **[Get To Know About Face Pong (Hands-Free Game)](/face-pong/)**
+
 * **Core Tech:**
     * **AI Vision:** Google MediaPipe Face Mesh (High-precision landmark detection)
     * **Game Engine:** p5.js (Physics & Rendering)
@@ -31,12 +37,6 @@ This platform consists of two independent game modes designed to <span style="co
     * **Gesture Trigger:** Calculates the Euclidean distance between Landmark #13 (Upper Lip) and #14 (Lower Lip). If distance > threshold (0.03), game starts.
     * **Logic:** Self-written algorithm ensures robust real-time tracking.
 * **Key Value:** Contactless interface, web accessibility, and neck exercise.
-
-### Neon Breaker (Hands-Free Game)
-👉 **[Get To Know About Neon Breaker (Hands-Free Game)](/head-breaker/)**
-
-### Face Pong (Hands-Free Game)
-👉 **[Get To Know About Face Pong (Hands-Free Game)](/face-pong/)**
 
 ---
 
