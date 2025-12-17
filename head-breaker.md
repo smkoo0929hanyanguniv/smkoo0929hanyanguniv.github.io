@@ -1,17 +1,17 @@
 ---
 layout: page
-title: AI Head Breaker
+title: AI Neon Breaker
 permalink: /head-breaker/
 ---
 
-# 🎮 AI Head Breaker
+# 🎮 AI Neon Breaker
 > **"Play with your head, not your hands."**
 > A hands-free arcade game designed for accessibility and digital healthcare.
 
 <br>
 
 ## 📺 Demo & Play
-> **[👉 Play Game Now (Click Here)](https://mellow-dragon-f0d9e2.netlify.app/))**
+> **[👉 Play Game Now (Click Here)](https://mellow-dragon-f0d9e2.netlify.app/)**
 > 
 <img src="/assets/images/AI Head Breaker_Ready.png" width="100%">
 *This is the Ready Window*
