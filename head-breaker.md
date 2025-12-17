@@ -13,7 +13,7 @@ permalink: /head-breaker/
 ## 📺 Demo & Play
 > **[👉 Play Game Now (Click Here)](https://mellow-dragon-f0d9e2.netlify.app/)**
 > 
-<img src="/assets/images/AI Head Breaker_Ready.png" width="100%">
+<img src="/assets/images/Neon Breaker_Loading.png" width="100%">
 *This is the Ready Window*
 
 <br>
