@@ -33,7 +33,7 @@ Designed for users with <span style="color: #ff9900;">upper limb disabilities</s
 
 ### Neon Breaker (Hands-Free Game)
 👉 **[Get To Know About Neon Breaker (Hands-Free Game)](/head-breaker/)**
-<br>
+
 ### Face Pong (Hands-Free Game)
 👉 **[Get To Know About Face Pong (Hands-Free Game)](/face-pong/)**
 
